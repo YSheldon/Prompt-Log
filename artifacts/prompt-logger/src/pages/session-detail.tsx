@@ -20,10 +20,10 @@ import {
   User, 
   Send, 
   Trash2, 
-  Settings, 
   Clock, 
   Tag as TagIcon,
-  Loader2
+  Loader2,
+  Plus
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
