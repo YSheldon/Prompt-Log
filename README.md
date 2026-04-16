@@ -3,8 +3,9 @@
 > A full-stack AI conversation history manager built with React + Vite + Express.
 > Save, organize, search, and track all your AI prompts & responses in one place.
 ---
-<img src="show.png" alt="show" width="200">
+<img src="show.png" alt="show" width="1200">
 
+https://prompt-log.replit.app/
 ## ✨ Features
 - 📊 **Dashboard**: Overview stats (total sessions, messages, averages) + recent activity feed
 - 🔍 **Session Management**: Searchable list with tag filtering, full CRUD operations
