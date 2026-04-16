@@ -1,30 +1,55 @@
-Prompt Logger (artifacts/prompt-logger)
-A React + Vite web app for saving and browsing AI conversation history (prompts and responses).
+# 📝 Prompt Logger
 
-Features:
+> A React + Vite web app for saving, organizing, and browsing your AI conversation history (prompts and responses).
 
-Dashboard with stats (total sessions, messages, averages) and recent activity
-Session list with search and tag filtering
-Session detail with chat-style conversation view (user vs assistant messages)
-Add new message pairs inline
-Create/edit/delete sessions
-Delete individual messages
-Tag-based organization
-Pages: / (Dashboard), /sessions (list), /sessions/:id (detail), /sessions/new (create)
+---
 
-API Server (artifacts/api-server)
-Express 5 backend serving the REST API.
+## ✨ Features
+- 📊 **Dashboard**: Overview stats (total sessions, messages, averages) + recent activity feed
+- 🔍 **Session Management**: Searchable list with tag filtering, full CRUD operations
+- 💬 **Chat-Style View**: Clean conversation display with user/assistant message separation
+- 🏷️ **Tag-Based Organization**: Organize sessions with custom tags for easy retrieval
+- ➕ **Inline Editing**: Add/delete individual messages directly in the session view
 
-Routes:
+## 🛠️ Tech Stack
+| Layer       | Tech Used               |
+|-------------|-------------------------|
+| Frontend    | React + Vite            |
+| Backend     | Express 5 (Node.js)     |
+| Database    | SQL (with `sessions`/`messages` schema) |
 
-GET/POST /api/sessions — list/create sessions
-GET/PATCH/DELETE /api/sessions/:id — session CRUD
-GET/POST /api/sessions/:id/messages — list/add messages
-DELETE /api/messages/:id — delete a message
-GET /api/stats/summary — overall stats
-GET /api/stats/recent — recent sessions
-Database Schema
-sessions
-id (serial PK), title, description (nullable), tags (nullable), message_count, created_at, updated_at
-messages
-id (serial PK), session_id (FK), role (user|assistant), content, created_at
+## 🚀 Quick Start
+### 1. Clone & Install
+```bash
+git clone https://github.com/your-username/prompt-logger.git
+cd prompt-logger
+```
+### 2. Start the API Server
+```bash
+cd artifacts/api-server
+npm install
+npm run dev
+```
+### 3. Start the Frontend
+```bash
+cd ../prompt-logger
+npm install
+npm run dev
+```
+
+
+☕ Support the Project
+If you find Prompt Logger useful, consider buying me a coffee!
+<div align="center">
+<a href="https://www.paypal.com/ncp/payment/VNU63WLWPRB3Y" target="_blank">
+<img src="qr-code-url.png" alt="PayPal Donation QR Code" width="200">
+</a>
+<br>
+<a href="https://www.paypal.com/ncp/payment/VNU63WLWPRB3Y" target="_blank">
+PayPal: VNU63WLWPRB3Y
+</a>
+</div>
+
+
+📜 License
+MIT © 2025 Sheldon Yang
