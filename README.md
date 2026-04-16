@@ -42,7 +42,7 @@ npm run dev
 If you find Prompt Logger useful, consider buying me a coffee!
 <div align="center">
 <a href="https://www.paypal.com/ncp/payment/VNU63WLWPRB3Y" target="_blank">
-<img src="qr-code-url.png" alt="PayPal Donation QR Code" width="200">
+<img src="Prompt Logger-qrcode.png" alt="PayPal Donation QR Code" width="200">
 </a>
 <br>
 <a href="https://www.paypal.com/ncp/payment/VNU63WLWPRB3Y" target="_blank">
@@ -51,5 +51,8 @@ PayPal: VNU63WLWPRB3Y
 </div>
 
 
+
+
+
 📜 License
-MIT © 2025 Sheldon Yang
+MIT © 2026 Sheldon Yang
