@@ -1,7 +1,7 @@
 # 📝 Prompt Logger
 
-> A React + Vite web app for saving, organizing, and browsing your AI conversation history (prompts and responses).
-
+> A full-stack AI conversation history manager built with React + Vite + Express.
+> Save, organize, search, and track all your AI prompts & responses in one place.
 ---
 
 ## ✨ Features
@@ -11,6 +11,21 @@
 - 🏷️ **Tag-Based Organization**: Organize sessions with custom tags for easy retrieval
 - ➕ **Inline Editing**: Add/delete individual messages directly in the session view
 
+## 🧱 Blockchain Ledger Mode (New)
+Prompt Log now supports an optional **decentralized, immutable ledger mode** for AI conversations.
+
+### What it does:
+- Hashes every message and stores it on a cryptographic ledger
+- Prevents tampering, deletion, or modification of historical records
+- Provides proof of authenticity for prompts and AI responses
+- Optional: Sync hash to public/private blockchain for full decentralization
+
+### Use cases:
+- Legal & compliance records
+- Audit trails for AI outputs
+- Intellectual property proof
+- Tamper-proof chat logs
+  
 ## 🛠️ Tech Stack
 | Layer       | Tech Used               |
 |-------------|-------------------------|
