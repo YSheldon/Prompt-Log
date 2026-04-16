@@ -3,6 +3,7 @@
 > A full-stack AI conversation history manager built with React + Vite + Express.
 > Save, organize, search, and track all your AI prompts & responses in one place.
 ---
+<img src="show.png" alt="show" width="200">
 
 ## ✨ Features
 - 📊 **Dashboard**: Overview stats (total sessions, messages, averages) + recent activity feed
